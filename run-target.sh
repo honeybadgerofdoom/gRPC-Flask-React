@@ -1,0 +1,1 @@
+./build/install/examples/bin/$1

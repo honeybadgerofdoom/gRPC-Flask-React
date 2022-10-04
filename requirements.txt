@@ -1,0 +1,17 @@
+click
+Flask
+Flask-Cors
+greenlet
+greenletio
+grpcio
+grpcio-tools
+h11
+importlib-metadata
+itsdangerous
+Jinja2
+MarkupSafe
+protobuf
+six
+uvicorn
+Werkzeug
+zipp
