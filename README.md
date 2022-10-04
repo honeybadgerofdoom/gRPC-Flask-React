@@ -2,6 +2,7 @@
 Boiler plate setup
 
 # running gRPC server
+- First run/clean `./clean-and-build.sh`
 - `./run-target.sh hello-world-server`
 
 # virtual env & running flask server
@@ -11,6 +12,7 @@ Boiler plate setup
   - `source venv/bin/activate`
   - `pip install -r requirements.txt`
 - You can then `cd src/main/flask` & run `export FLASK_APP=flask_server.py`, then `flask run`
+- If you change the proto file run `./compile_proto.sh` & re-run flask server
 
 # Running client
 - `cd cra_client`
